@@ -8,7 +8,7 @@ h1 {
 .add-color {
   color: lightsalmon;
 }
-section {
+.flexible-container {
   display: flex;
   margin-bottom: 150px;
 }
@@ -35,4 +35,30 @@ section {
   background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+.last-part {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.developer {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 2%;
+  padding-bottom: 5%;
+  box-shadow: 10px 10px 40px gray;
+}
+#baby-shadow {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+#full-shadow {
+  border-left: 7px solid;
+  border-image: linear-gradient(tomato, orange);
+  border-image-slice: 1;
+}
+footer p {
+  text-align: center;
 }
